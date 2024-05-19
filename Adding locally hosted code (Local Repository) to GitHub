@@ -1,0 +1,22 @@
+Adding locally hosted code (Local Repository) to GitHub
+
+  This can be done in 2 ways:
+  > GitHub CLI
+  > GitHub Desktop
+
+
+GitHub CLI:
+1) Initialize the Git repository
+2) Importing a Git repository
+
+  > Initializing a Git repository
+    > using Git 2.28.0 or a later version
+      > git init -b main
+    > using Git 2.27.1 or an earlier version (Name of the default branch can be set using git symbolic-ref)
+      > git init && git symbolic-ref HEAD refs/heads/main 
+    > git add .
+    > git commit -m "First commit"
+
+
+REF: https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github#adding-a-local-repository-to-github-using-git
+
